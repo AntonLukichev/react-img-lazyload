@@ -1,0 +1,25 @@
+{
+  "name": "react-lazyload-images",
+  "version": "0.1.0",
+  "description": "React component lazy load images",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntonLukichev/react-lazyload-images.git"
+  },
+  "keywords": [
+    "react",
+    "lazyload",
+    "image",
+    "react-component"
+  ],
+  "author": "Anton Lukichev <anton@lukichev.pro>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntonLukichev/react-lazyload-images/issues"
+  },
+  "homepage": "https://github.com/AntonLukichev/react-lazyload-images#readme"
+}
