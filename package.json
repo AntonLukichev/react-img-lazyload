@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/AntonLukichev/react-img-lazyload/issues"
   },
-  "homepage": "https://github.com/AntonLukichev/react-img-lazyload#readme"
+  "homepage": "https://github.com/AntonLukichev/react-img-lazyload#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
 }
