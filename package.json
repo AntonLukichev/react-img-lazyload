@@ -16,7 +16,10 @@
     "image",
     "react-component"
   ],
-  "author": "Anton Lukichev <anton@lukichev.pro>",
+  "author": {
+    "name": "Anton Lukichev",
+    "email": "anton@lukichev.pro"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/AntonLukichev/react-img-lazyload/issues"
