@@ -1,4 +1,5 @@
 # react-img-lazyload
+[![Build Status](https://img.shields.io/travis/AntonLukichev/react-img-lazyload/master.svg?style=flat-square)](https://travis-ci.org/AntonLukichev/react-img-lazyload)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 [![License](https://img.shields.io/npm/l/fastify.svg?style=flat-square)](LICENSE)
 
@@ -9,7 +10,7 @@ React component lazy load images
 
 ## Install
 ```bash
-npm install react-img-lazyload --save
+npm i react-img-lazyload --save
 ```
 
 ## Example
