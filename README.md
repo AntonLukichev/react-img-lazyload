@@ -3,7 +3,7 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com/)
 [![License](https://img.shields.io/npm/l/fastify.svg?style=flat-square)](LICENSE)
 
-[![release](https://img.shields.io/github/release/AntonLukichev/react-img-lazyload.svg?style=flat-square)](https://github.com/AntonLukichev/react-img-lazyload/releases)
+[![release](https://img.shields.io/github/release/AntonLukichev/react-img-lazyload.svg?style=flat-square)](https://github.com/AntonLukichev/react-img-lazyload/releases) [![Greenkeeper badge](https://badges.greenkeeper.io/AntonLukichev/react-img-lazyload.svg)](https://greenkeeper.io/)
 ![downloads](https://img.shields.io/github/downloads/AntonLukichev/react-img-lazyload/total.svg?style=flat-square)
 
 React component lazy load images
