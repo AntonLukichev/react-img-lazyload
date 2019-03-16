@@ -21,7 +21,11 @@ npm i react-img-lazyload --save
 ```
 
 ## Inspiration
-[Lazy Loading Images](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
+[Lazy Loading Images](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)<br>
+[Udacity course - Responsive Images](https://www.udacity.com/course/responsive-images--ud882)
+
+## Documentation
+[HTML5 Embedded content](https://www.w3.org/TR/html5/semantics-embedded-content.htm)
 
 ## License
 [MIT](LICENSE) 
