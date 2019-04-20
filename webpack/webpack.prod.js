@@ -18,8 +18,7 @@ module.exports = {
         // Enable file caching
         cache: true,
         sourceMap: true,
-      }),
-      new OptimizeCSSAssetsPlugin(),
+      })
     ],
     // Automatically split vendor and commons
     // https://twitter.com/wSokra/status/969633336732905474
