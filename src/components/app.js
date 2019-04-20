@@ -7,7 +7,7 @@ const url1 = [
   'https://test.lukichev.pro/photo-1495542779398-9fec7dc7986c?q=80&w=',
   'https://test.lukichev.pro/photo-1523509433743-6f42a58221df?q=80&w=',
   'https://test.lukichev.pro/photo-1529225596519-1262d0bfc242?q=80&w=',
-  'https://test.lukichev.pro/photo-1549925861-c14d41750718?q=80&w='
+  'https://test.lukichev.pro/photo-1549925861-c14d41750718?q=80&w=',
 ]
 
 

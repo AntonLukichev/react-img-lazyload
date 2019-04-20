@@ -1,34 +1,11 @@
-const webpack = require('webpack');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpackMerge = require('webpack-merge');
+const common = require('./webpack/webpack.common');
 
-const port = process.env.PORT || 3000;
-
-module.exports = {
-  mode: 'development',
-  entry: './src/index.js',
-  output: {
-    filename: 'bundle.[hash].js'
-  },
-  devtool: 'inline-source-map',
-  module: {
-    rules: [
-      {
-        test: /\.(js)$/,
-        exclude: /node_modules/,
-        use: ['babel-loader']
-      }
-    ]
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: 'public/index.html',
-      favicon: 'public/favicon.ico'
-    })
-  ],
-  devServer: {
-    host: 'localhost',
-    port: port,
-    historyApiFallback: true,
-    open: true
-  }
+const envs = {
+  development: 'dev',
+  production: 'prod',
 };
+/* eslint-disable global-require,import/no-dynamic-require */
+const env = envs[process.env.NODE_ENV || 'development'];
+const envConfig = require(`./webpack/webpack.${env}.js`);
+module.exports = webpackMerge(common, envConfig);
