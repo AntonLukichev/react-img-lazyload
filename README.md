@@ -21,7 +21,8 @@ npm i react-img-lazyload --save
 ```
 
 ## Inspiration
-[Images]((https://developers.google.com/web/fundamentals/design-and-ux/responsive/images))
+[Addy Osmani - Native image lazy-loading for the web](https://addyosmani.com/blog/lazy-loading/)<br>
+[Images]((https://developers.google.com/web/fundamentals/design-and-ux/responsive/images))<br>
 [Lazy Loading Images](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)<br>
 [Udacity course - Responsive Images](https://www.udacity.com/course/responsive-images--ud882)
 
