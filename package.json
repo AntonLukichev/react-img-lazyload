@@ -1,14 +1,23 @@
 {
   "name": "react-img-lazyload",
-  "version": "0.2.2",
-  "description": "React component lazy load images",
-  "main": "build/index.js",
+  "version": "0.3.0",
+  "description": "React component for lazy load images",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
   "scripts": {
-    "test": "jest",
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --open",
-    "build": "cross-env NODE_ENV=production webpack",
-    "lint": "eslint --ignore-path .gitignore src",
-    "lint-fix": "eslint --ignore-path .gitignore src --fix"
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "prepublishOnly": "npm run build",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
   },
   "repository": {
     "type": "git",
@@ -17,8 +26,7 @@
   "keywords": [
     "react",
     "lazyload",
-    "image",
-    "react-component"
+    "image"
   ],
   "author": {
     "name": "Anton Lukichev",
@@ -29,38 +37,13 @@
     "url": "https://github.com/AntonLukichev/react-img-lazyload/issues"
   },
   "homepage": "https://github.com/AntonLukichev/react-img-lazyload#readme",
-  "dependencies": {
-    "babel-polyfill": "^6.26.0",
-    "core-js": "^3.0.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "16.x"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
-    "@babel/preset-react": "^7.0.0",
-    "babel-eslint": "^10.0.1",
-    "babel-loader": "^8.0.5",
-    "clean-webpack-plugin": "^3.0.0",
-    "cross-env": "^7.0.0",
-    "eslint": "^6.0.0",
-    "eslint-config-airbnb": "^18.0.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-import-resolver-webpack": "^0.12.0",
-    "eslint-loader": "^3.0.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.14.3",
-    "html-webpack-plugin": "^4.0.0",
-    "terser-webpack-plugin": "^2.0.0",
-    "webpack": "^4.39.1",
-    "webpack-cli": "^3.3.1",
-    "webpack-dev-server": "^3.2.1",
-    "webpack-merge": "^4.2.1"
-  },
-  "browserslist": [
-    "last 1 version",
-    "> 0.5%",
-    "not dead"
-  ]
+    "nwb": "0.24.x",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }

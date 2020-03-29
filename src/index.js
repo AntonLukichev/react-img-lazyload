@@ -1,6 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React, {Component} from 'react'
 
-import ImgLazyload from './components/app'
+export default class extends Component {
+  render() {
+    return <div>
+      <h2>Welcome to React components</h2>
 
-ReactDOM.render(<ImgLazyload />, document.getElementById('root'))
+    </div>
+  }
+}
